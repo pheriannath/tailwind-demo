@@ -3,8 +3,11 @@ import './style.css';
 
 export default function App() {
   return (
-    <div>
-      <h1>Tailwind Demo</h1>
-    </div>
+    <>
+      <div className="container mx-auto">
+        <h1>Hello</h1>
+        <p>world?</p>
+      </div>
+    </>
   );
 }
